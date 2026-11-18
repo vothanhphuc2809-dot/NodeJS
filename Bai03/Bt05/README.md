@@ -73,9 +73,8 @@ Khởi động MongoDB, sau đó mở Terminal tại thư mục chứa tập tin
 
 Sử dụng lệnh:
 
-```bash
-node bai05.js
-```
+<img width="338" height="41" alt="image" src="https://github.com/user-attachments/assets/335eaa89-f9e5-4768-9708-41117c4bcb82" />
+
 
 ### Bước 6. Chụp ảnh kết quả
 
