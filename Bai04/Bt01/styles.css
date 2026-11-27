@@ -1,0 +1,194 @@
+
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GIAO DIỆN CHUNG */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #f0f9ff, #dbeafe);
+    color: #263445;
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* PHẦN ĐẦU TRANG */
+header {
+    background: linear-gradient(135deg, #075985, #0284c7, #38bdf8);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header p {
+    font-size: 17px;
+    color: #e0f2fe;
+}
+
+/* MENU ĐIỀU HƯỚNG */
+nav {
+    background-color: #075985;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #075985;
+    transform: translateY(-2px);
+}
+
+/* PHẦN NỘI DUNG */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* KHUNG NỘI DUNG */
+.card {
+    width: 100%;
+    background-color: white;
+    padding: 45px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(15, 70, 110, 0.12);
+    text-align: center;
+    border-top: 5px solid #0284c7;
+}
+
+.card h2 {
+    color: #0369a1;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #334155;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #475569;
+}
+
+.card ul {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+/* NÚT QUAY VỀ TRANG CHỦ */
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #0284c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background: #075985;
+    transform: translateY(-3px);
+}
+
+/* TRANG 404 */
+.not-found {
+    border-top-color: #ef4444;
+}
+
+.not-found h2 {
+    color: #dc2626;
+}
+
+/* CHÂN TRANG */
+footer {
+    background-color: #075985;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* RESPONSIVE - ĐIỆN THOẠI */
+@media (max-width: 600px) {
+    header {
+        padding: 35px 15px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 9px 12px;
+        font-size: 13px;
+    }
+
+    main {
+        width: 92%;
+        margin: 30px auto;
+    }
+
+    .card {
+        padding: 25px 18px;
+    }
+
+    .card h2 {
+        font-size: 23px;
+    }
+
+    .card h3 {
+        font-size: 18px;
+    }
+}
