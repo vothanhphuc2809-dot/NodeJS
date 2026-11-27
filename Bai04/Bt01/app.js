@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Kiểm tra file đang chạy
 console.log('Dang chay file:', __filename);
 
-// Cấu hình thư mục chứa CSS
+// Kiểm tra xem thư mục public nằm ở đâu so với app.js (ví dụ ./public hoặc ../public)
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Hàm tạo giao diện chung cho tất cả các trang
