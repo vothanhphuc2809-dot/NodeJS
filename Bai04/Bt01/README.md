@@ -1,4 +1,4 @@
-WEBSITE CÁ NHÂN – NODE.JS VÀ EXPRESS
+## WEBSITE CÁ NHÂN – NODE.JS VÀ EXPRESS
 1. Giới thiệu
 Bài thực hành xây dựng website cá nhân bằng Node.js và Express Framework. Website có menu điều hướng và 5 trang chức năng:
 - Trang chủ: /
@@ -17,7 +17,7 @@ MyProfileExpress/
       └── styles.css
 
 
-PHẦN I. CÀI ĐẶT, CHẠY VÀ KIỂM TRA WEBSITE TRÊN MÁY CÁ NHÂN (LOCALHOST)
+## PHẦN I. CÀI ĐẶT, CHẠY VÀ KIỂM TRA WEBSITE TRÊN MÁY CÁ NHÂN (LOCALHOST)
 1. Môi trường thực hiện:
 - Node.js và npm.
 - Visual Studio Code hoặc trình soạn thảo mã nguồn tương đương.
@@ -99,7 +99,7 @@ Hình 9. Kiểm tra đường dẫn không tồn tại – HTTP 404
 7. Kết quả phần I
 Ứng dụng chạy trên máy cá nhân tại http://localhost:3000. Các route /, /about, /skills, /hobbies, /contact được xây dựng; giao diện có menu điều hướng và CSS; đường dẫn không tồn tại được xử lý bằng trang lỗi HTTP 404.
 
-PHẦN II. KHẢO SÁT HOSTING MIỄN PHÍ VÀ TRIỂN KHAI WEBSITE
+## PHẦN II. KHẢO SÁT HOSTING MIỄN PHÍ VÀ TRIỂN KHAI WEBSITE
 ### 1. Render
 - Website: https://render.com/
 - Hỗ trợ Node.js và Express.
